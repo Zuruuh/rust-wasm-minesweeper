@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 200%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#root {
+    padding: 1rem;
+    border: 2px solid #000;
+    border-radius: 5px;
+    display: grid;
+}
+
+.field {
+    text-decoration: none;
+    text-align: center;
+    width: 1.5rem;
+    height: 1.5rem;
+    line-height: 1.5rem;
+    color: #000;
+}
